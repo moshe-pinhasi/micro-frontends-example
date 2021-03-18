@@ -1,0 +1,24 @@
+{
+  "name": "app-two",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "single-spa-vue": "^1.9.0",
+    "systemjs-webpack-interop": "^2.1.2",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.0",
+    "@vue/cli-service": "^4.5.0",
+    "event-hooks-webpack-plugin": "^2.1.7",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.2",
+    "vue-cli-plugin-single-spa": "^1.2.0",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
